@@ -1,0 +1,12 @@
+Term=xterm-256color
+Font=FantasqueSansM Nerd Font
+FontHeight=16
+Locale=zh_CN
+Charset=UTF-8
+Language=zh_CN
+ThemeFile=dracula
+MiddleClickAction=void
+RightClickAction=paste
+FontWeight=400
+Transparency=off
+CursorType=block
