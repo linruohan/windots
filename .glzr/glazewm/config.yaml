@@ -328,7 +328,7 @@ keybindings:
   
   #* Potentially goodbye to left/right_click_command, so I will have to work around it. *#
   - commands: ['shell-exec %userprofile%/.glzr/glazewm/helpers/SetWallpaper.exe']
-    bindings: ['alt+shift+w']
+    bindings: ['ctrl+shift+w']
 
   # Focus the next/previous workspace defined in `workspaces` config.
   - commands: ['focus --next-workspace']
