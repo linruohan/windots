@@ -9,7 +9,7 @@
 general:
   # Commands to run when the WM has started (e.g. to run a script or launch
   # another application). Here we are running a batch script to start Zebar.
-  startup_commands: ['shell-exec %userprofile%/.glzr/zebar/start.bat']
+  startup_commands: []
 
   # Whether to automatically focus windows underneath the cursor.
   focus_follows_cursor: false
@@ -86,39 +86,39 @@ workspaces:
     # n is your left most screen's right screen + 1
   
   - name: '1'
-    display_name: ' Home'
+    display_name: ' '
     keep_alive: true
     bind_to_monitor: 0
   
   - name: '2'
-    display_name: "󰖟 Interwebs"
+    display_name: "󰖟 "
     bind_to_monitor: 1
     keep_alive: false
       
   - name: '3'
-    display_name: "󰅩 Code"
+    display_name: "󰅩 "
     keep_alive: false
     bind_to_monitor: 0
   
   - name: '4'
-    display_name: " Gaming"
+    display_name: " "
     keep_alive: false
     bind_to_monitor: 1 
     # change it up and move all game launchers
     # to the 2nd monitor for a better list (preference ofc)
   
   - name: '5'
-    display_name: "󰿎 Media"
+    display_name: "󰿎 "
     keep_alive: false
     bind_to_monitor: 1
   
   - name: '6'
-    display_name: "󰙯 Social"
+    display_name: "󰙯 "
     keep_alive: false
     bind_to_monitor: 1
   
   - name: '7'
-    display_name: "󰉍 Download"
+    display_name: "󰉍 "
     keep_alive: false
     bind_to_monitor: 1
   
@@ -131,7 +131,7 @@ window_rules:
     
     match:
       # Ignores any Zebar windows.
-      - window_process: { equals: 'zebar' }
+      - window_process: { equals: 'zebar|yasb' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
@@ -155,48 +155,48 @@ window_rules:
 
     
   #* Move games to workspace 1 *#
-  - commands: ['move --workspace 1']
-    match:
-      - window_process: { equals: "RobloxPlayerBeta" }
-      - window_process: { equals: "destiny2" }
-      - window_process: { equals: "TetrisEffect" }
+  # - commands: ['move --workspace 1']
+  #   match:
+  #     - window_process: { equals: "RobloxPlayerBeta" }
+  #     - window_process: { equals: "destiny2" }
+  #     - window_process: { equals: "TetrisEffect" }
 
-  - commands: ['move --workspace 2']
-    match:
-      - window_process: { equals: "chrome" }
-      - window_process: { equals: "zen" }
+  # - commands: ['move --workspace 2']
+  #   match:
+  #     - window_process: { equals: "chrome" }
+  #     - window_process: { equals: "zen" }
 
-  - commands: ['move --workspace 3']
-    match:
-      - window_process: { equals: "Code" }
-      - window_process: { equals: "sublime_text" }
-      - window_process: { equals: "Obsidian" }
+  # - commands: ['move --workspace 3']
+  #   match:
+  #     - window_process: { equals: "Code" }
+  #     - window_process: { equals: "sublime_text" }
+  #     - window_process: { equals: "Obsidian" }
   
-  - commands: ['move --workspace 4']
-    match:
-      - window_process: { regex: "[Ss]team" }
-      - window_process: { regex: "[Mm]inecraft [Ll]auncher" }
-      - window_process: { equals: "EpicGamesLauncher" }
-      - window_process: { equals: "Dolphin" }
+  # - commands: ['move --workspace 4']
+  #   match:
+  #     - window_process: { regex: "[Ss]team" }
+  #     - window_process: { regex: "[Mm]inecraft [Ll]auncher" }
+  #     - window_process: { equals: "EpicGamesLauncher" }
+  #     - window_process: { equals: "Dolphin" }
   
-  - commands: ['move --workspace 5']
-    match:
-      - window_process: { equals: "vlc" }
-      - window_process: { equals: "Photos" }
-      - window_process: { equals: "stremio" }
-      - window_title: { equals: "Films & TV" }
-      - window_process: { equals: "MusicBee" }
+  # - commands: ['move --workspace 5']
+  #   match:
+  #     - window_process: { equals: "vlc" }
+  #     - window_process: { equals: "Photos" }
+  #     - window_process: { equals: "stremio" }
+  #     - window_title: { equals: "Films & TV" }
+  #     - window_process: { equals: "MusicBee" }
           
-  - commands: ['move --workspace 6']
-    match:
-      - window_process: { equals: "Discord" }
-      - window_process: { equals: "LINE" }
-      - window_process: { equals: "Beeper" }
+  # - commands: ['move --workspace 6']
+  #   match:
+  #     - window_process: { equals: "Discord" }
+  #     - window_process: { equals: "LINE" }
+  #     - window_process: { equals: "Beeper" }
   
-  - commands: ['move --workspace 7']
-    match:
-      - window_process: { equals: "qbittorrent" }
-      - window_process: { equals: "Motrix" }
+  # - commands: ['move --workspace 7']
+  #   match:
+  #     - window_process: { equals: "qbittorrent" }
+  #     - window_process: { equals: "Motrix" }
 
   - commands: ['set-floating']
     match:
@@ -255,13 +255,13 @@ keybindings:
 
   # Resize focused window by a percentage or pixel amount.
   - commands: ['resize --width -2%']
-    bindings: ['alt+u']
+    bindings: ['ctrl+alt+right']
   - commands: ['resize --width +2%']
-    bindings: ['alt+p']
+    bindings: ['ctrl+alt+left']
   - commands: ['resize --height +2%']
-    bindings: ['alt+o']
+    bindings: ['ctrl+alt+up']
   - commands: ['resize --height -2%']
-    bindings: ['alt+i']
+    bindings: ['ctrl+alt+down']
 
   # As an alternative to the resize keybindings above, resize mode enables
   # resizing via arrow keys or HJKL. The binding mode is defined above with
@@ -338,7 +338,7 @@ keybindings:
 
   # Focus the workspace that last had focus.
   - commands: ['focus --recent-workspace']
-    bindings: ['alt+o']
+    bindings: ['alt+shift+o']
 
   # Change focus to a workspace defined in `workspaces` config.
   - commands: ['focus --workspace 1']
