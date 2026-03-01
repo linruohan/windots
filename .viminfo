@@ -1,0 +1,841 @@
+# 这个 viminfo 文件是由 Vim 9.1 生成的。
+# 如果要自行修改请特别小心！
+
+# Viminfo version
+|1,4
+
+# 此文件建立时 'encoding' 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最后 搜索模式:
+~MSle0~/IconName
+
+# 命令行 历史记录 (从新到旧):
+:wq
+|2,0,1772279702,,"wq"
+:Lq
+|2,0,1770813041,,"Lq"
+:q
+|2,0,1763648280,,"q"
+:cargo
+|2,0,1748951859,,"cargo"
+:q!
+|2,0,1735359268,,"q!"
+:q1
+|2,0,1716701672,,"q1"
+:rgb:f8f8/f8f8/f2f2
+|2,0,1669165637,,"rgb:f8f8/f8f8/f2f2"
+:rgb:f8f8/f8f8/f2f2 q
+|2,0,1669124224,,"rgb:f8f8/f8f8/f2f2 q"
+:w
+|2,0,1638061111,,"w"
+:wq!
+|2,0,1637936445,,"wq!"
+
+# 查找字符串 历史记录 (从新到旧):
+?/IconName
+|2,1,1763647503,47,"IconName"
+?/is_today
+|2,1,1762954596,47,"is_today"
+?/cargo
+|2,1,1748951863,47,"cargo"
+? \<alias\>
+|2,1,1748951849,,"\\<alias\\>"
+?/handle pas
+|2,1,1735359036,47,"handle pas"
+?/output-meta
+|2,1,1725774561,47,"output-meta"
+?/python
+|2,1,1723893802,47,"python"
+?/require
+|2,1,1723120777,47,"require"
+?/go
+|2,1,1716701654,47,"go"
+?/theme
+|2,1,1669125190,47,"theme"
+?/nvim
+|2,1,1667657104,47,"nvim"
+?/coc
+|2,1,1651237829,47,"coc"
+?/export
+|2,1,1638060479,47,"export"
+?/alias ll
+|2,1,1638060185,47,"alias ll"
+
+# 表达式 历史记录 (从新到旧):
+
+# 输入行 历史记录 (从新到旧):
+
+# 输入行 历史记录 (从新到旧):
+
+# 寄存器:
+"0	LINE	0
+	export LANG=zh_CN.UTF-8
+	export LANGUAGE=zh_CN.UTF-8
+	export LC_ALL=zh_CN.UTF-8
+|3,0,0,1,3,0,1722140338,"export LANG=zh_CN.UTF-8","export LANGUAGE=zh_CN.UTF-8","export LC_ALL=zh_CN.UTF-8"
+""1	LINE	0
+	map("n", ";", ":", { desc = "CMD enter command mode" })
+|3,1,1,1,1,0,1763648680,"map(\"n\", \";\", \":\", { desc = \"CMD enter command mode\" })"
+"2	LINE	0
+	end, { desc = "File Format with conform" })
+|3,0,2,1,1,0,1763648103,"end, { desc = \"File Format with conform\" })"
+"3	LINE	0
+	  require("conform").format()
+|3,0,3,1,1,0,1763648102,"  require(\"conform\").format()"
+"4	LINE	0
+	map("n", "<leader>fm", function()
+|3,0,4,1,1,0,1763648102,"map(\"n\", \"<leader>fm\", function()"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1763648095,""
+"6	LINE	0
+	-- end, { desc = "buffer close" })
+|3,0,6,1,1,0,1763648094,"-- end, { desc = \"buffer close\" })"
+"7	LINE	0
+	  -- require("nvchad.tabufline").close_buffer()
+|3,0,7,1,1,0,1763648094,"  -- require(\"nvchad.tabufline\").close_buffer()"
+"8	LINE	0
+	-- map("n", "<leader>x", function()
+|3,0,8,1,1,0,1763648093,"-- map(\"n\", \"<leader>x\", function()"
+"9	LINE	0
+	-- switch tab files : shift+l :next ; shift+h :prev; leader+x: close;
+|3,0,9,1,1,0,1763648093,"-- switch tab files : shift+l :next ; shift+h :prev; leader+x: close;"
+"-	CHAR	0
+	Right
+|3,0,36,0,1,0,1763648056,"Right"
+
+# 文件标记:
+'0  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,48,1,0,1772279702,"/d/codehub/gpui-component/.git/MERGE_MSG"
+'1  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,49,1,0,1772192906,"/d/codehub/gpui-component/.git/MERGE_MSG"
+'2  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,50,1,0,1772112145,"/d/codehub/gpui-component/.git/MERGE_MSG"
+'3  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,51,1,0,1772112145,"/d/codehub/gpui-component/.git/MERGE_MSG"
+'4  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,52,1,0,1771811190,"/d/codehub/gpui-component/.git/MERGE_MSG"
+'5  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,53,1,0,1771811190,"/d/codehub/gpui-component/.git/MERGE_MSG"
+'6  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,54,1,0,1771811190,"/d/codehub/gpui-component/.git/MERGE_MSG"
+'7  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,55,1,0,1771811190,"/d/codehub/gpui-component/.git/MERGE_MSG"
+'8  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,56,1,0,1771733719,"/d/codehub/gpui-component/.git/MERGE_MSG"
+'9  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,57,1,0,1771733719,"/d/codehub/gpui-component/.git/MERGE_MSG"
+
+# 跳转列表 (从新到旧):
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1772279702,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1772192906,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1772112145,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1771811190,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1771733719,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1771069917,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1770982046,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1770900280,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1770813043,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1770730582,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/gpui-component/.git/MERGE_MSG
+|4,39,1,0,1770611232,"/d/codehub/gpui-component/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+-'  1  0  /d/codehub/nvim-config/.git/MERGE_MSG
+|4,39,1,0,1770424957,"/d/codehub/nvim-config/.git/MERGE_MSG"
+
+# 文件内的标记历史记录 (从新到旧):
+
+> /d/codehub/gpui-component/.git/MERGE_MSG
+	*	1772279701	0
+	"	1	0
+	^	1	2
+	.	1	0
+	+	1	0
+
+> /d/codehub/nvim-config/.git/MERGE_MSG
+	*	1770424956	0
+	"	1	0
+
+> /d/codehub/mpgui/.git/MERGE_MSG
+	*	1766761339	0
+	"	1	0
+
+> /d/codehub/nvim-config/lua/config/keymaps.lua
+	*	1763648687	0
+	"	80	0
+	^	25	30
+	.	76	0
+	+	16	24
+	+	19	24
+	+	22	24
+	+	25	29
+	+	96	0
+	+	95	0
+	+	76	0
+
+> ~/.bashrc
+	*	1763648279	0
+	"	279	0
+	^	273	1
+	.	273	0
+	+	2	16
+	+	92	22
+	+	2	15
+	+	3	0
+	+	5	0
+	+	8	0
+	+	35	0
+	+	38	15
+	+	39	20
+	+	40	21
+	+	41	21
+	+	78	0
+	+	81	0
+	+	82	0
+	+	78	0
+	+	83	0
+	+	81	0
+	+	84	0
+	+	81	0
+	+	96	0
+	+	98	0
+	+	97	11
+	+	94	24
+	+	95	31
+	+	94	7
+	+	95	8
+	+	94	22
+	+	95	23
+	+	93	23
+	+	84	18
+	+	85	19
+	+	6	16
+	+	101	0
+	+	102	46
+	+	103	0
+	+	108	29
+	+	109	80
+	+	110	36
+	+	273	0
+
+> /d/codehub/gpui-component/crates/ui/src/icon.rs
+	*	1763647559	0
+	"	652	0
+	^	613	8
+	.	613	7
+	+	613	7
+
+> /d/codehub/pgui/update.sh
+	*	1763167319	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> /d/codehub/gpui-component/crates/ui/src/time/calendar.rs
+	*	1762954720	0
+	"	784	17
+	^	784	18
+	.	784	17
+	+	5	0
+	+	7	0
+	+	12	0
+	+	8	0
+	+	5	0
+	+	12	0
+	+	5	0
+	+	12	0
+	+	577	70
+	+	578	12
+	+	783	61
+	+	784	17
+
+> /d/codehub/gpui-component/.git/COMMIT_EDITMSG
+	*	1762782634	0
+	"	1	0
+
+> /d/codehub/lunar_rust1/.git/COMMIT_EDITMSG
+	*	1762778889	0
+	"	1	0
+
+> /d/codehub/ST-my-settings/update.sh
+	*	1761355592	0
+	"	2	55
+	^	2	56
+	.	2	55
+	+	1	83
+	+	1	1
+	+	2	55
+
+> /d/codehub/ST-my-settings/.git/config
+	*	1761355474	0
+	"	9	44
+	^	9	45
+	.	9	44
+	+	9	44
+
+> /d/codehub/Nvchad_custom/update.sh
+	*	1760531764	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	3	0
+	+	1	1
+
+> /d/codehub/gpui-component/.git/rebase-merge/git-rebase-todo
+	*	1752671397	0
+	"	4	0
+	^	4	1
+	.	4	0
+	+	2	0
+	+	3	0
+	+	4	0
+
+> /d/codehub/gpui-component/crates/ui/Cargo.toml
+	*	1752066547	0
+	"	43	0
+	.	43	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	43	0
+
+> /d/codehub/my-gpui-component/crates/ui/src/time/calendar.rs
+	*	1750858359	0
+	"	119	4
+	.	5	0
+	+	12	0
+	+	9	0
+	+	5	0
+
+> /d/codehub/mytool-web/.git/COMMIT_EDITMSG
+	*	1750688377	0
+	"	1	0
+
+> /d/codehub/mytool-web/.git/config
+	*	1750594472	0
+	"	9	45
+	^	9	46
+	.	9	45
+	+	9	45
+
+> /d/codehub/mytool-gpui/.git/COMMIT_EDITMSG
+	*	1743425790	0
+	"	1	0
+
+> /d/codehub/todo-rs/.git/COMMIT_EDITMSG
+	*	1737179537	0
+	"	1	0
+
+> /d/codehub/done/src/app/components/content.rs
+	*	1735380584	0
+	"	164	31
+	^	164	32
+	.	164	31
+	+	164	31
+
+> /d/codehub/typora_book/.obsidian/plugins/obsidian-custom-attachment-location/main.js
+	*	1735359267	0
+	"	187	32
+
+> ~/.zshrc
+	*	1734258753	0
+	"	106	0
+	^	99	17
+	.	8	0
+	+	86	24
+	+	190	53
+	+	1	41
+	+	1	0
+	+	108	0
+	+	117	0
+	+	115	0
+	+	1	0
+	+	8	0
+	+	199	0
+	+	99	16
+	+	8	0
+
+> /d/codehub/dotfiles/.zshrc
+	*	1734258173	0
+	"	442	25
+	^	442	26
+	.	445	0
+	+	429	5
+	+	430	5
+	+	431	5
+	+	434	0
+	+	436	0
+	+	438	26
+	+	436	25
+	+	440	41
+	+	442	0
+	+	444	29
+	+	445	0
+
+> ~/.gitconfig
+	*	1733023980	0
+	"	44	22
+	^	44	23
+	.	44	30
+	+	1	6
+	+	26	20
+	+	27	0
+	+	30	0
+	+	32	0
+	+	45	21
+	+	43	33
+	+	44	30
+
+> /d/codehub/fm/.git/config
+	*	1732933607	0
+	"	9	34
+	^	9	35
+	.	9	34
+	+	9	34
+
+> /d/codehub/github-host/.git/config
+	*	1732414868	0
+	"	9	34
+	^	9	35
+	.	9	35
+	+	9	35
+
+> /d/codehub/1rnote/.git/config
+	*	1732331393	0
+	"	9	50
+	^	9	51
+	.	9	50
+	+	9	50
+
+> /d/codehub/mytool-rs/.git/config
+	*	1731208743	0
+	"	7	1
+	.	8	0
+	+	8	0
+
+> /d/codehub/wails_go_vite/.git/config
+	*	1726673448	0
+	"	1	0
+
+> /d/codehub/godesk/.git/config
+	*	1726562143	0
+	"	9	40
+	^	9	41
+	.	9	40
+	+	9	40
+
+> /etc/hosts
+	*	1726152904	0
+	"	14	0
+	.	15	0
+	+	15	0
+
+> /etc/inputrc
+	*	1725774561	0
+	"	82	0
+
+> /etc/profile
+	*	1725774417	0
+	"	147	23
+	^	147	24
+	.	147	23
+	+	147	23
+
+> /d/codehub/cgtk_tsk/.git/config
+	*	1723965496	0
+	"	9	47
+	^	9	48
+	.	9	47
+	+	9	47
+
+> /d/codehub/cgtk_tsk/.gitignore
+	*	1723965308	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	2	5
+
+> ~/Downloads/001.py
+	*	1723898836	0
+	"	12	14
+	^	11	0
+	.	12	0
+	+	16	24
+	+	12	0
+
+> /d/codehub/electron-vite-vue/electron/main/index.ts
+	*	1723121909	0
+	"	99	15
+
+> /usr/share/bash-completion/completions/cd
+	*	1723119176	0
+	"	39	4
+
+> /d/codehub/coding/.git/config
+	*	1722142877	0
+	"	1	0
+
+> /d/codehub/pychm/chm/chmlib_search.h
+	*	1722046867	0
+	"	4	0
+
+> /d/codehub/go_tsk/.git/config
+	*	1719024921	0
+	"	9	24
+	^	9	25
+	.	9	24
+	+	9	24
+
+> /d/codehub/my-gin-admin/.git/config
+	*	1716704124	0
+	"	9	50
+	^	9	51
+	.	9	50
+	+	9	50
+
+> /d/codehub/win10/.git/config
+	*	1715992769	0
+	"	9	39
+	^	9	40
+	.	9	39
+	+	9	39
+
+> /d/codehub/.emacs.d/init.el
+	*	1669209909	0
+	"	105	0
+
+> /d/codehub/.emacs.d/logo.png
+	*	1669209775	0
+	"	1	0
+
+> /d/codehub/win10/001.sh
+	*	1669209700	0
+	"	1	0
+
+> /d/codehub/win10/bak_conf.sh
+	*	1669209688	0
+	"	28	0
+	^	28	0
+	.	28	0
+	+	28	0
+
+> ~/unrestricted
+	*	1669208998	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	*	1669165721	0
+	"	23	0
+	^	633	0
+
+> ~/AppData/Roaming/.emacs.d/lisp/common/init-fn.el
+	*	1669165670	0
+	"	89	23
+	e	10	2
+
+> ~/AppData/Roaming/.emacs.d/lisp/feature/init-feature.el
+	*	1669165629	0
+	"	21	0
+
+> ~/AppData/Roaming/.emacs.d/lisp/common/init-builtin.el
+	*	1669165103	0
+	"	129	0
+
+> ~/AppData/Roaming/.emacs.d/early-init.el
+	*	1669164477	0
+	"	6	0
+
+> ~/AppData/Roaming/.emacs.d/init.el
+	*	1669164455	0
+	"	18	19
+	^	17	33
+	.	17	0
+	+	17	32
+	+	15	0
+	+	17	0
+	+	14	0
+	+	17	0
+
+> ~/AppData/Roaming/.emacs.d/lisp/common/init-elpa.el
+	*	1669124540	0
+	"	12	0
+
+> ~/AppData/Roaming/.emacs.d/lisp/common/init-package.el
+	*	1669124479	0
+	"	71	0
+
+> ~/AppData/Roaming/.emacs.d/.git/config
+	*	1669124267	0
+	"	12	0
+
+> ~/AppData/Roaming/.emacs.d/README.md
+	*	1669124249	0
+	"	4	0
+
+> ~/AppData/Roaming/.emacs.d/README.
+	*	1669124226	0
+	"	1	0
+
+> /d/codehub/electron-vite-vue/.git/config
+	*	1667435138	0
+	"	9	0
+
+> /d/codehub/win10/rime-ice/Readme.md
+	*	1667222473	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
+
+> /d/codehub/rime-ice/.git/config
+	*	1667222276	0
+	"	7	14
+	^	7	15
+	.	7	14
+	+	1	6
+	+	10	32
+	+	8	45
+	+	10	0
+	+	8	36
+	+	10	14
+	+	7	14
+
+> /d/download/nvim-master/init.vim
+	*	1651238611	0
+	"	542	4
+
+> /d/codehub/typora_book/.git/config
+	*	1651235171	0
+	"	2	0
+
+> ~/.vim/colors/snazzy.vim
+	*	1651067365	0
+	"	1	0
+
+> /d/codehub/vue3-django/myhtml/.git/config
+	*	1641648846	0
+	"	1	0
+
+> /d/codehub/.config/.git/config
+	*	1638188847	0
+	"	8	45
+	^	8	46
+	.	8	45
+	+	8	21
+	+	12	32
+	+	8	45
+
+> /d/codehub/.config/.gitignore
+	*	1638188632	0
+	"	48	0
+	.	51	0
+	+	50	11
+	+	51	0
+
+> /etc/bash.bashrc
+	*	1637936476	0
+	"	66	2
+	^	66	3
+	.	66	2
+	+	66	2
+
+> /d/codehub/lanzou-gui/main.py
+	*	1637760012	0
+	"	15	0
+
+> /d/.config/.git/config
+	*	1637674567	0
+	"	1	0

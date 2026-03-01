@@ -1,0 +1,185 @@
+{
+  "numStartups": 16,
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "tipsHistory": {
+    "new-user-warmup": 8,
+    "plan-mode-for-complex-tasks": 16,
+    "terminal-setup": 11,
+    "memory-command": 16,
+    "theme-command": 1,
+    "status-line": 1,
+    "prompt-queue": 16,
+    "enter-to-steer-in-relatime": 1,
+    "todo-list": 1,
+    "install-github-app": 11,
+    "install-slack-app": 11,
+    "drag-and-drop-images": 11,
+    "double-esc-code-restore": 12,
+    "continue": 12,
+    "shift-tab": 12,
+    "image-paste": 2,
+    "desktop-app": 2,
+    "web-app": 2,
+    "mobile-app": 3,
+    "ide-upsell-external-terminal": 6,
+    "custom-agents": 6,
+    "agent-flag": 6,
+    "permissions": 11,
+    "rename-conversation": 11,
+    "custom-commands": 11
+  },
+  "promptQueueUseCount": 1,
+  "cachedStatsigGates": {
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_tool_pear": false
+  },
+  "cachedGrowthBookFeatures": {
+    "tengu_mcp_tool_search": true,
+    "tengu_scratch": false,
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_1p_event_batch_config": {},
+    "tengu_claudeai_mcp_connectors": false,
+    "tengu_event_sampling_config": {},
+    "tengu_log_segment_events": false,
+    "tengu_log_datadog_events": false,
+    "tengu_marble_anvil": false,
+    "tengu_tool_pear": false,
+    "tengu_scarf_coffee": false,
+    "tengu_keybinding_customization_release": false,
+    "tengu_thinkback": false,
+    "tengu_oboe": false,
+    "tengu_chomp_inflection": true,
+    "tengu_copper_lantern": false,
+    "tengu_marble_lantern_disabled": false,
+    "tengu_pid_based_version_locking": false,
+    "tengu_vscode_review_upsell": false,
+    "tengu_vscode_onboarding": false,
+    "tengu_quiet_fern": false,
+    "tengu_marble_kite": false,
+    "tengu_plan_mode_interview_phase": false,
+    "tengu_tst_names_in_messages": false,
+    "tengu_penguins_enabled": true
+  },
+  "firstStartTime": "2025-09-06T03:01:13.800Z",
+  "userID": "2de35bf850b60c1209e002ef19bfc1aa3aa055f46d31a86822fbd0d91d6b235e",
+  "projects": {
+    "D:\\codehub\\mytool-gpui": {
+      "allowedTools": "",
+      "mcpContextUris": "",
+      "mcpServers": "",
+      "enabledMcpjsonServers": "",
+      "disabledMcpjsonServers": "",
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    },
+    "D:\\codehub\\gpui-component": {
+      "allowedTools": "",
+      "mcpContextUris": "",
+      "mcpServers": "",
+      "enabledMcpjsonServers": "",
+      "disabledMcpjsonServers": "",
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    },
+    "D:/codehub/mytool-gpui": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 86563,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 5.32,
+      "lastFpsLow1Pct": 211.6,
+      "lastModelUsage": {},
+      "lastSessionId": "f90981ab-c511-4cd6-a2bb-f01381a9f879",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 457,
+        "frame_duration_ms_min": 0.03239999999641441,
+        "frame_duration_ms_max": 6.921400000000062,
+        "frame_duration_ms_avg": 1.7305816192558627,
+        "frame_duration_ms_p50": 1.279499999996915,
+        "frame_duration_ms_p95": 3.9715600000112317,
+        "frame_duration_ms_p99": 4.626108000000531
+      },
+      "disabledMcpServers": [],
+      "hasCompletedProjectOnboarding": true
+    }
+  },
+  "sonnet45MigrationComplete": true,
+  "changelogLastFetched": 1760962580683,
+  "opus45MigrationComplete": true,
+  "opusProMigrationComplete": true,
+  "thinkingMigrationComplete": true,
+  "cachedChromeExtensionInstalled": false,
+  "hasCompletedOnboarding": true,
+  "githubRepoPaths": {
+    "linruohan/mytool-gpui": [
+      "D:\\codehub\\mytool-gpui"
+    ]
+  },
+  "lastReleaseNotesSeen": "2.1.59",
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": false,
+  "officialMarketplaceAutoInstallFailReason": "unknown",
+  "officialMarketplaceAutoInstallRetryCount": 2,
+  "officialMarketplaceAutoInstallLastAttemptTime": 1771073146562,
+  "officialMarketplaceAutoInstallNextRetryTime": 1771087546562,
+  "clientDataCache": {
+    "data": null,
+    "timestamp": 1772112700135
+  },
+  "mcpServers": {
+    "word-document-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "word-mcp-server",
+        "word_mcp_server"
+      ],
+      "env": {
+        "MCP_TRANSPORT": "stdio"
+      }
+    },
+    "MiniMax": {
+      "command": "uvx",
+      "args": [
+        "minimax-mcp"
+      ],
+      "env": {
+        "MINIMAX_API_KEY": "填写你的API密钥",
+        "MINIMAX_MCP_BASE_PATH": "本地输出目录路径，如/User/xxx/Desktop",
+        "MINIMAX_API_HOST": "填写API Host, https://api.minimaxi.com 或 https://api.minimax.io",
+        "MINIMAX_API_RESOURCE_MODE": "可选配置，资源生成后的提供方式, 可选项为 [url|local], 默认为 url"
+      },
+      "transport": "可选配置，传输方式，可选项为 [studio|SSE]，默认为 studio"
+    }
+  },
+  "skillUsage": {
+    "init": {
+      "usageCount": 2,
+      "lastUsedAt": 1770819264653
+    }
+  },
+  "showSpinnerTree": false,
+  "sonnet1m45MigrationComplete": true
+}

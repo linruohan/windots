@@ -1,0 +1,57 @@
+[user]
+	name = linruohan
+	email = mjt1220@126.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[oh-my-zsh]
+	hide-dirty = 0
+	hide-status = 0
+[credential "https://gitee.com"]
+	provider = generic
+[core]
+	pager = delta
+[delta]
+	navigate = true 
+	light = false   
+	side-by-side = false
+	line-numbers = true
+[interactive]
+	diffFilter = delta --color-only --features=interactive
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
+[gui]
+	encoding = utf-8
+[http]
+	sslVerify = false
+[init]
+	defaultBranch = master
+[gui]  
+    encoding = utf-8  
+[i18n]  
+    commitencoding = utf-8  
+[svn]  
+    pathnameencoding = utf-8  
+[core]
+	quotepath = false
+[url "ssh://git@ssh.github.com:443"]
+	insteadOf = https://github.com
+[safe]
+	directory = D:/codehub/mytool-gpui
+	directory = C:/Users/Administrator/.local/share/nvim-data
+	directory = C:/Users/Administrator/.local/share/nvim-data/lazy/lazy.nvim
+	directory = C:/software/Rime/data
+[https]
+	proxy = http://127.0.0.1:31181
+[http "https://gitee.com"]
+	proxy = 
+[http "https://e.coding.net"]
+	proxy = 
+[http "https://codeup.aliyun.com"]
+	proxy = 
+[safe]
+	directory = *

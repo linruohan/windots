@@ -1,0 +1,200 @@
+
+# adding flags
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
+
+# ps
+alias psa="ps auxf"
+alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
+alias psmem='ps auxf | sort -nr -k 4'
+alias pscpu='ps auxf | sort -nr -k 3'
+alias pg="pgrep -f"
+alias pk="pkill -9 -f"
+
+# Merge Xresources
+alias merge='xrdb -merge ~/.Xresources'
+
+# 1. arch or manjaro OS commands
+alias pi='pacman -S --noconfirm'
+alias pu='pacman -Syyu --noconfirm'
+alias pr='pacman -Rscn --noconfirm'
+alias pq='pacman -Qs --noconfirm'
+alias yi="yay -S"
+alias yu="yay -Syyu"
+alias yr="yay -Rscn"
+alias yq="yay -Qs"
+
+# pacman and yay
+alias yaysua='yay -Sua --noconfirm'               # update only AUR pkgs (yay)
+alias yaysyu='yay -Syu --noconfirm'               # update standard pkgs and AUR pkgs (yay)
+alias parsua='paru -Sua --noconfirm'              # update only AUR pkgs (paru)
+alias parsyu='paru -Syu --noconfirm'              # update standard pkgs and AUR pkgs (paru)
+alias unlock='sudo rm /var/lib/pacman/db.lck'     # remove pacman lock
+alias pcleanup='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
+
+# get fastest mirrors
+alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+
+# network
+alias wifi1='iwlist scan | grep "ESSID:"'
+alias wifi='nmcli device wifi list | head -10'
+alias shouji='nmcli device wifi connect "HONOR 30" password "12345678"'
+alias kuandai='nmcli device wifi connect "sx001" password "Mm1214875764."'
+alias duankaiwifi='nmcli device disconnect wlp3s0'
+
+# 2. custom: dir commands
+alias co='cd /usr1/codehub'
+alias do='cd ~/Downloads'
+alias m="cd ~"
+alias fonts='fc-list | grep' # 查看已安装字体
+# ===========================
+alias rm='rm -rf'
+alias ln='ln -i'
+alias cp1='cp -arv'
+alias cp='rsync -avPh'
+alias mv='mv -i'
+alias mkdir='mkdir -pv'
+alias ..='cd ../../'
+alias ...='cd ../../..'
+alias l='lsd -d .* --color=auto'
+alias ll='lsd -laF --color=auto'
+alias ls='lsd --color=auto'
+alias f='shfmt -d -i 4 -ci -w -bn -sr'
+# Changing "ls" to "exa"
+#alias ls='exa -al --color=always --group-directories-first' # my preferred listing
+#alias la='exa -a --color=always --group-directories-first'  # all files and dirs
+#alias ll='exa -l --color=always --group-directories-first'  # long format
+#alias lt='exa -aT --color=always --group-directories-first' # tree listing
+#alias l.='exa -a | egrep "^\."'
+
+alias ..='cd ../..'
+alias ...='cd ../../..'
+alias ....='cd ../../../..'
+
+# 2.1 custom cat commands
+alias nocomment='grep -Ev "^(#|$)"'
+alias tf='tail -f '
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias diff='colordiff'
+
+# 2.3 custom time commands
+alias now='date "+%Y-%m-%d %H:%M:%S.%s"'
+alias timestamp='now; echo s: $(date +"%s"); echo ms: $(echo `expr \`date +%s%N\` / 1000000`)'
+alias time_sync='sudo timedatectl set-ntp true'
+# 2.4 net commands
+alias curl='curl -O'
+
+# 2.5 memory status commands
+alias du='du -h'
+alias du1='du -h -d 1 | sort -hr'
+alias du2='du -h -d 2'
+alias du3='du -h -d 3'
+alias meminfo='free -h -l -t'
+alias cpuinfo='lscpu'
+
+# 2.6 ps commands
+alias ports='netstat -tulanp'
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+alias psg='ps -ef | grep '
+alias psme='ps -ef | grep $USER --color=always '
+alias psmem='ps auxf | sort -nr -k 4'
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+alias pscpu='ps auxf | sort -nr -k 3'
+alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+alias dinfo='df -h; free -h -l -t; netstat -tulanp'
+alias h='history'
+alias j='jobs -l'
+
+# 3. custom tools
+alias vi=nvim
+alias v=nvim
+alias ra='ranger'
+alias lg='lazygit'
+
+# 4. git commands
+alias gr='git rm -rf'
+# alias gp='git push origin master'
+alias gp='git push'
+alias ga='git add'
+alias gs='git status'
+alias gll='git pull'
+alias gc='git commit -m'
+alias gb='git branch -a'
+alias gd='git diff'
+alias glp='git log -p'
+alias checkout='git checkout'
+alias tag='git tag'
+alias newtag='git tag -a'
+
+# Play audio files in current dir by type
+alias playwav='deadbeef *.wav'
+alias playogg='deadbeef *.ogg'
+alias playmp3='deadbeef *.mp3'
+
+# Play video files in current dir by type
+alias playavi='vlc *.avi'
+alias playmov='vlc *.mov'
+alias playmp4='vlc *.mp4'
+
+# get error messages from journalctl
+alias jctl="journalctl -p 3 -xb"
+
+# gpg encryption
+# verify signature for isos
+alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
+# receive the key of a developer
+alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+
+# yt-dlp
+alias yta-aac="yt-dlp --extract-audio --audio-format aac "
+alias yta-best="yt-dlp --extract-audio --audio-format best "
+alias yta-flac="yt-dlp --extract-audio --audio-format flac "
+alias yta-m4a="yt-dlp --extract-audio --audio-format m4a "
+alias yta-mp3="yt-dlp --extract-audio --audio-format mp3 "
+alias yta-opus="yt-dlp --extract-audio --audio-format opus "
+alias yta-vorbis="yt-dlp --extract-audio --audio-format vorbis "
+alias yta-wav="yt-dlp --extract-audio --audio-format wav "
+alias ytv-best="yt-dlp -f bestvideo+bestaudio "
+
+# switch between shells
+# I do not recommend switching default SHELL from bash.
+alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
+alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
+alias sl='sudo sublime'
+alias typora='sudo typora'
+# termbin
+alias tb="nc termbin.com 9999"
+
+# the terminal rickroll
+alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+
+# Unlock LBRY tips
+alias tips='lbrynet txo spend --type=support --is_not_my_input --blocking'
+
+### DTOS ###
+# Copy/paste all content of /etc/dtos over to home folder. A backup of config is created. (Be careful running this!)
+alias dtoscopy='[ -d ~/.config ] || mkdir ~/.config && cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/dtos/* ~'
+# Backup contents of /etc/dtos to a backup folder in $HOME.
+alias dtosbackup='cp -Rf /etc/dtos ~/dtos-backup-$(date +%Y.%m.%d-%H.%M.%S)'
+alias dep_del="cargo install cargo-machete && cargo machete"
+alias cr="cargo run --offline"
+alias cc="cargo check --offline"
+alias cb="cargo build --offline --release"
+alias clb="cargo-clif build --offline --release -Z codegen-backend"
+# pgrep -a -f fcitx5 || fcitx5 &
+alias cf="RUSTFLAGS='-Z threads=16' cargo fmt --all && cargo clippy --fix --allow-dirty --allow-staged"
+alias cfg="git diff --name-only --diff-filter=ACM | grep '\.rs$' | xargs cargo clippy --fix"
+alias cfc="cargo clippy -- -D clippy::correctness"
+alias cfs="cargo clippy -- -W clippy::style"
+# windows dir
+alias co="cd /d/codehub"
+alias bp='bypy usyncup'
+alias bll='bypy syncdown'
+alias do="cd ~/Downloads/"
