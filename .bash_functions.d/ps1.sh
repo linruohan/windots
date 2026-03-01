@@ -9,6 +9,3 @@ function show-PS1() {
         export PS1="\n\[\e[32m\]\u\[\e[36m\][\#]\[\e[35m\] MSYS \[\e[33m\w\]\[\e[0m\] \n\$ "
     fi
 }
-function cd() {
-    builtin cd "$@" && show-PS1
-}
