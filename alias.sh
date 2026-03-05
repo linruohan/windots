@@ -1,4 +1,3 @@
-
 # adding flags
 alias df='df -h'     # human-readable sizes
 alias free='free -m' # show sizes in MB
@@ -126,6 +125,7 @@ alias ga='git add'
 alias gs='git status'
 alias gll='git pull'
 alias gc='git commit -m'
+alias gca='git commit --amend --no-edit'
 alias gb='git branch -a'
 alias gd='git diff'
 alias glp='git log -p'
